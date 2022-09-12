@@ -28,7 +28,7 @@ function Navbar({ title }) {
 }
 
 Navbar.defaultProps = {
-  title: "Github Stalker",
+  title: "Git Stalk",
 };
 
 Navbar.propTypes = {

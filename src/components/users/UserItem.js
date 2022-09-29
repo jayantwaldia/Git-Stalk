@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function UserItem({ user: { login, avatar_url } }) {
   return (
-    <div className="card shadow-md compact side bg-black">
+    <div className="card shadow-md compact side bg-[white] text-black ">
       <div className="flex-row items-center space-x-4 card-body">
         <div>
           <div className="avatar">
@@ -14,7 +14,7 @@ function UserItem({ user: { login, avatar_url } }) {
         <div>
           <h2 className="card-title">{login}</h2>
           <Link
-            className="text-base-content text-opacity-40"
+            className="text-base-content text-opacity-90"
             to={`/user/${login}`}
           >
             Visit Profile
